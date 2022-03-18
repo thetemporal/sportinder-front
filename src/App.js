@@ -20,6 +20,7 @@ function App() {
           path="/test"
           element={<div> test page </div>}
         />
+        <Route path="*" element={<div>Not found</div>} />
       </Routes>
     </BrowserRouter>
   );
