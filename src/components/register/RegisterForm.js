@@ -60,7 +60,7 @@ export default function RegisterForm() {
           <p className="text-center mt-2 mb-2">Ó</p>
           <div className="grid grid-cols-1">
             <GoogleButton
-              className="google-button"
+              className="google-button pr-9"
               type="light"
               label="Registrar usando Google"
             />

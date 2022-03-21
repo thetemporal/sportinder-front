@@ -1,5 +1,7 @@
 .google-button {
   width: 100% !important;
+  font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji" !important;
 }
 .register-section {
   display: flex;

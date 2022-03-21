@@ -22,7 +22,7 @@ export class Input extends Component {
           name={this.props.name}
           type={this.props.type}
           placeholder={this.props.placeholder}
-          className="border-solid border rounded h-12"
+          className="border-solid border rounded h-12 pl-2"
         />
         <h1 className="text-xs">{this.props.footerNote}</h1>
       </div>
