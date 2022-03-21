@@ -1,6 +1,8 @@
 import React from "react";
+import GoogleButton from "react-google-button";
 import { Input } from "../shared";
 import RegisterHeader from "./RegisterHeader";
+import "./registerStyles.css";
 
 export default function RegisterForm() {
   return (
@@ -50,6 +52,19 @@ export default function RegisterForm() {
             type="password"
             labelText="Confirma Contraseña"
           />
+          <div className="grid grid-cols-1">
+            <button className="bg-coral text-white py-2 px-4 rounded tracking-wider mb-1 register-button">
+              Registrarme
+            </button>
+          </div>
+          <p className="text-center">Ó</p>
+          <div className="grid grid-cols-1">
+            <GoogleButton
+              className="google-button"
+              type="light"
+              label="Registrar usando Google"
+            />
+          </div>
         </div>
       </div>
     </div>

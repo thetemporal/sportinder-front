@@ -24,7 +24,7 @@ export class Input extends Component {
           placeholder={this.props.placeholder}
           className="border-solid border rounded h-12"
         />
-        <h1 className="font-light text-xs">{this.props.footerNote}</h1>
+        <h1 className="text-xs">{this.props.footerNote}</h1>
       </div>
     );
   }

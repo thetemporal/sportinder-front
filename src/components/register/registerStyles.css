@@ -1,0 +1,14 @@
+.google-button {
+  width: 100% !important;
+}
+.register-section {
+  display: flex;
+  justify-content: center;
+}
+.register-header {
+  display: flex;
+  justify-content: space-around;
+}
+.register-form {
+  width: 487px;
+}

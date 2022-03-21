@@ -6,7 +6,7 @@ export default function RegisterHeader() {
       <h2 className="font-bold text-lg">Bienvenido a Adventure.ar</h2>
       <h4 className="text-sm">
         ¿Ya tenes cuenta? <br />
-        <a href="" className="text-[#27ccbc] hover:text-cyan-700">
+        <a href="" className="text-link hover:text-cyan-700">
           Logueate!
         </a>
       </h4>

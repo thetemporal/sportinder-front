@@ -2,14 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.register-section {
-  display: flex;
-  justify-content: center;
-}
-.register-header {
-  display: flex;
-  justify-content: space-around;
-}
-.register-form {
-  width: 487px;
+body {
+  font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji";
 }
