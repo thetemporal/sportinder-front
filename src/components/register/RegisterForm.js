@@ -6,7 +6,7 @@ import "./registerStyles.css";
 
 export default function RegisterForm() {
   return (
-    <div>
+    <div className="mt-6">
       <RegisterHeader />
       <div className="register-form">
         <h3 className="font-bold text-xl mb-3">Registrarme</h3>
@@ -52,12 +52,12 @@ export default function RegisterForm() {
             type="password"
             labelText="Confirma Contraseña"
           />
-          <div className="grid grid-cols-1">
-            <button className="bg-coral text-white py-2 px-4 rounded tracking-wider mb-1 register-button">
+          <div className="grid grid-cols-1 mt-5">
+            <button className="bg-coral hover:bg-buttonHover text-white py-2 px-4 rounded tracking-wider mb-1 register-button">
               Registrarme
             </button>
           </div>
-          <p className="text-center">Ó</p>
+          <p className="text-center mt-2 mb-2">Ó</p>
           <div className="grid grid-cols-1">
             <GoogleButton
               className="google-button"
