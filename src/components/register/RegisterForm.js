@@ -1,6 +1,7 @@
 import React from "react";
 import GoogleButton from "react-google-button";
-import { Input } from "../shared";
+import Input from "../shared/Input";
+
 import RegisterHeader from "./RegisterHeader";
 import "./registerStyles.css";
 
