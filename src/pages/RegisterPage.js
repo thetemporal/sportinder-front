@@ -5,7 +5,7 @@ import Logo from "../components/shared/Logo";
 export default function RegisterPage() {
   return (
     <section>
-      <div className="register-section mt-4 grid grid-cols-2 gap-20">
+      <div className="register-section mt-4 grid grid-cols-2 gap-20 sm:flex-col md:flex-col">
         <Logo />
         <RegisterForm />
       </div>
