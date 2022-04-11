@@ -1,6 +1,7 @@
 import React from "react";
 import RegisterForm from "../components/register/RegisterForm";
 import Logo from "../components/shared/Logo";
+import "./registerPageStyles.css";
 
 export default function RegisterPage() {
   return (
