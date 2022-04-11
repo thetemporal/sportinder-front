@@ -1,14 +1,18 @@
 import React from "react";
 import GoogleButton from "react-google-button";
+import FormHeader from "../shared/FormHeader";
 import Input from "../shared/Input";
 
-import RegisterHeader from "./RegisterHeader";
 import "./registerStyles.css";
 
 export default function RegisterForm() {
   return (
     <div className="mt-6">
-      <RegisterHeader />
+      <FormHeader
+        title="Bienvenido a Adventure.ar"
+        subtitle="¿Ya tenes cuenta?"
+        action="Logueate!"
+      />
       <div className="register-form">
         <h3 className="font-bold text-xl mb-3">Registrarme</h3>
         <div className="form-group">

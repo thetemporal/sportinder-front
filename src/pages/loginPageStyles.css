@@ -1,0 +1,10 @@
+@media screen and (max-width: 1000px) {
+  .login-section {
+    display: contents;
+  }
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+}
